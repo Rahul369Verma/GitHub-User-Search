@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { DatePicker } from 'antd';
 import { Navbar } from './components/navbar/Navbar';
 import { Search } from './components/search/Search';
 import { Table } from './components/table/Table';

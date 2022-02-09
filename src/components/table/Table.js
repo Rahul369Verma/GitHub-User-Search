@@ -54,7 +54,7 @@ export const Table = ({ user }) => {
             <h2>Repositories</h2>
             {userRepos.map((repo, i) => {
               return (
-                <Card title={repo?.name} style={{ width: "100%", marginBottom: "1rem" }}>
+                <Card key={i} title={repo?.name} style={{ width: "100%", marginBottom: "1rem" }}>
                   <p>{repo?.description}</p>
                   <p><ForkOutlined /> {repo?.forks}</p>
                   <p><StarOutlined /> {repo?.watchers}</p>
