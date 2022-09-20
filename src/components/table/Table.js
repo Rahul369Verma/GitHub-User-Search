@@ -21,7 +21,7 @@ export const Table = ({ user }) => {
         setUserData(response.data)
         setError(null)
       } catch (err) {
-        if (err.response.data.message) {
+        if (err?.response?.data?.message) {
           setUserRepos(null)
           setUserData(null)
           setError(err.response.data.message)

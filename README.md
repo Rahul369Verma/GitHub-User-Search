@@ -3,8 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+and copy the github username and fetch all information about you github profile. 
+
+### `npm install` 
+to install all node packages and then 
 
 ### `npm start`
+to run it in your computer.
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
